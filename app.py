@@ -37,7 +37,7 @@ def freeze_counting():
 
 @app.route('/counts')
 def get_counts():
-    return jsonify(counts)
+    return jsonify({'elfen1x': counts['elfen1x']})
 
 @app.route('/restart')
 def restart():
