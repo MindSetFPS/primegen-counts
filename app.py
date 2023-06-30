@@ -13,7 +13,6 @@ counts = {
     'ieiko': 0,
     'vickjoy': 0,
     'leofloresdc': 0
-
 }
 
 is_counting_frozen = False
@@ -23,7 +22,7 @@ def increment_count(variable):
     if not is_counting_frozen:
         if variable in counts:
             counts[variable] += 1
-            return jsonify({variable: counts[variable]})
+            return jsonify({'res': f"votos: {counts[variable]}"})
         else:
             return jsonify(error='Invalid variable.')
     else:
