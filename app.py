@@ -6,7 +6,7 @@ counts = {
     'elfen1x': 0,
     'swamy': 0,
     'latumbasuricatos': 0,
-    'señorefe':0,
+    'senorefe':0,
     'payis': 0,
     'mitsu': 0,
     'rafaela': 0,
